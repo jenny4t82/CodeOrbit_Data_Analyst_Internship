@@ -1,0 +1,21 @@
+# ==============================================================================
+# Internship_Data_Analytics: Core Repository Dependencies
+# Target Python Version: 3.13 (Compatible with Python 3.10+)
+# ==============================================================================
+
+# Data Manipulation & Numerical Analysis (Task 1: Data Cleaning)
+pandas>=2.2.0,<4.0.0
+numpy>=1.26.0,<3.0.0
+
+# Data Visualization & Exploratory Analysis
+matplotlib>=3.8.0,<4.0.0
+seaborn>=0.13.0,<1.0.0
+
+# Excel & Spreadsheet File I/O
+openpyxl>=3.1.0,<4.0.0
+
+# Interactive Notebook Environment & Automation
+jupyter>=1.0.0,<2.0.0
+ipykernel>=6.29.0,<8.0.0
+nbformat>=5.9.0,<6.0.0
+nbclient>=0.10.0,<1.0.0

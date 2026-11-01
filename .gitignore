@@ -1,0 +1,50 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# macOS and Windows system temporary files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==============================================================================
+# Task 1 Datasets (Third-party Kaggle data with unknown/unspecified license)
+# ==============================================================================
+# Exclude raw data archive and extracted source CSV
+Task_1_Data_Cleaning/data/raw/*.zip
+Task_1_Data_Cleaning/data/raw/extracted/*.csv
+
+# Exclude derivative cleaned dataset (generated locally by src/cleaning.py)
+Task_1_Data_Cleaning/data/cleaned/*.csv
+
+# Explicit exclusions for specific dataset files
+Task_1_Data_Cleaning/data/raw/archive.zip
+Task_1_Data_Cleaning/data/raw/extracted/dirty_cafe_sales.csv
+Task_1_Data_Cleaning/data/cleaned/cleaned_cafe_sales.csv
+
+# Preserve directory structures in version control
+!Task_1_Data_Cleaning/data/raw/.gitkeep
+!Task_1_Data_Cleaning/data/raw/extracted/.gitkeep
+!Task_1_Data_Cleaning/data/cleaned/.gitkeep

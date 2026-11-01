@@ -51,3 +51,12 @@ jupyter nbconvert --to notebook --execute sales_analysis.ipynb --output sales_an
 ```
 
 The executed notebook saves its tables and visualizations in the notebook file. The analysis uses the existing root project dependencies.
+
+## Dataset Attribution
+
+- **Dataset:** Retail Sales Dataset
+- **Creator:** Mohammad Talib
+- **Source:** [Kaggle – Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)
+- **License:** [CC0 1.0 Universal (Public Domain Dedication)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+The dataset is made available under the CC0 1.0 licence, permitting reuse, modification, and redistribution.
